@@ -1,0 +1,14 @@
+{
+  "name": "@org/design-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/public.ts",
+    "./nuxt.config": "./nuxt.config.ts"
+  },
+  "dependencies": {
+    "vuetify": "3.13.7",
+    "vue": "^3.5.0"
+  }
+}

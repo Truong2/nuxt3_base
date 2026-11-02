@@ -1,0 +1,55 @@
+{
+  "name": "nuxt3-vuetify-modular-base",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.2",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "start": "node .output/server/index.mjs",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "check:boundaries": "node scripts/check-boundaries.mjs",
+    "check": "pnpm lint && pnpm check:boundaries && pnpm typecheck && pnpm test",
+    "setup": "node scripts/setup.mjs",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "nuxt": "3.21.11",
+    "vue": "^3.5.0",
+    "vue-router": "^4.6.0",
+    "vuetify": "3.13.7",
+    "vuetify-nuxt-module": "0.19.5",
+    "@mdi/font": "7.4.47",
+    "zod": "^3.24.0",
+    "ofetch": "^1.4.0",
+    "h3": "^1.15.0",
+    "@org/api-core": "workspace:*",
+    "@org/shared": "workspace:*",
+    "@org/design-system": "workspace:*",
+    "@org/identity": "workspace:*",
+    "@org/country": "workspace:*",
+    "@org/contract": "workspace:*",
+    "@org/billing": "workspace:*",
+    "@org/reporting": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vue-tsc": "^3.1.0",
+    "vitest": "^3.2.0",
+    "@playwright/test": "1.56.1",
+    "eslint": "^9.39.0",
+    "typescript-eslint": "^8.46.0",
+    "eslint-plugin-vue": "^10.5.0",
+    "vue-eslint-parser": "^10.2.0",
+    "@types/node": "^22.19.0",
+    "prettier": "3.8.1"
+  }
+}

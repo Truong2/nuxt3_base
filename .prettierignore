@@ -1,0 +1,7 @@
+node_modules
+.nuxt
+.output
+pnpm-lock.yaml
+docs/ARCHITECTURE.md
+playwright-report
+test-results

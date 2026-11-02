@@ -1,0 +1,17 @@
+{
+  "name": "@org/country",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/public.ts",
+    "./nuxt.config": "./nuxt.config.ts"
+  },
+  "dependencies": {
+    "@org/api-core": "workspace:*",
+    "@org/shared": "workspace:*",
+    "zod": "^3.24.0",
+    "@org/identity": "workspace:*",
+    "@org/design-system": "workspace:*"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@org/api-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "ofetch": "^1.4.0",
+    "zod": "^3.24.0"
+  }
+}

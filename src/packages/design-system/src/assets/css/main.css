@@ -1,0 +1,49 @@
+@import './tokens.css';
+html {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+.page-heading {
+  font-size: clamp(1.65rem, 3vw, 2.2rem);
+  letter-spacing: -0.045em;
+  font-weight: 750;
+  line-height: 1.2;
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: rgb(var(--v-theme-primary));
+}
+.text-muted {
+  color: rgb(var(--v-theme-on-surface), 0.65);
+}
+.workspace {
+  max-width: 1440px;
+  margin: auto;
+  padding: 36px;
+}
+.stat-number {
+  font-size: 2rem;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+}
+.v-table {
+  background: transparent !important;
+}
+a {
+  color: inherit;
+}
+:focus-visible {
+  outline: 3px solid rgb(var(--v-theme-primary));
+  outline-offset: 3px;
+}
+@media (max-width: 600px) {
+  .workspace {
+    padding: 20px 16px;
+  }
+}

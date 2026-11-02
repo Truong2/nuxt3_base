@@ -1,0 +1,6 @@
+# Replace with real GitHub users/teams before enabling required reviews.
+# /server/ @your-org/platform
+# /src/packages/api-core/ @your-org/platform
+# /src/packages/identity/ @your-org/platform
+# /src/packages/design-system/ @your-org/design-system
+# /src/packages/country/ @your-org/country

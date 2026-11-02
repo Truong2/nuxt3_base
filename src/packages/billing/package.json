@@ -1,0 +1,11 @@
+{
+  "name": "@org/billing",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/public.ts",
+    "./nuxt.config": "./nuxt.config.ts"
+  },
+  "dependencies": {}
+}
